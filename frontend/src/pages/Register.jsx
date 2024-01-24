@@ -1,5 +1,4 @@
 import { Link, useNavigate } from 'react-router-dom'
-import Footer from '../components/Footer'
 import { useState } from 'react'
 import axios from 'axios'
 import React from 'react'
@@ -78,7 +77,6 @@ const Register = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   )
 }

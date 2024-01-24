@@ -19,7 +19,7 @@ const HomePost = () => {
         <div className="flex mb-2 text-sm font-semibold text-gray-500 justify-between items-center md:mb-4">
           <p>@snehasish</p>
           <div className="flex space-x-2">
-            <p>24/1/24</p>
+            <p>24/1/2024</p>
             <p>8.50</p>
           </div>
         </div>
