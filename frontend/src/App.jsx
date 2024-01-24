@@ -5,6 +5,7 @@ import Login from './pages/login'
 import Register from './pages/Register'
 import PostDetails from './pages/PostDetails'
 import CreatePost from './pages/CreatePost'
+import EditPost from './pages/EditPost'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/register" element={<Register />} />
         <Route path="/write" element={<CreatePost />} />
         <Route path="/posts/post/:id" element={<PostDetails />} />
+        <Route path="/edit/:id" element={<EditPost />} />
       </Routes>
     </div>
   )
